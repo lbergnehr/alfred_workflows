@@ -3,7 +3,7 @@ require 'osx/cocoa'
 include OSX
 
 # Get and check input values
-input = "snow".split " "
+input = "{query}".split " "
 if input == nil || input.length == 0
   return
 end
@@ -12,9 +12,6 @@ intervals = [
   0..0x2ffff,
   0xe0000..0xeffff
 ]
-
-# MIN_CHAR = 32
-# MAX_CHAR = 2 ** 16
 
 range = intervals.map { |x| x.to_a } .flatten
 
