@@ -1,3 +1,4 @@
+# Created by Leo Bergnéhr, @lbergnehr
 
 index = [
   [0x0021,"EXCLAMATION MARK"],
