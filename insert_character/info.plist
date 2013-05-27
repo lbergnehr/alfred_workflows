@@ -19,13 +19,13 @@
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string></string>
+	<string>Leo Bergnéhr</string>
 	<key>description</key>
 	<string>Find a unicode character by name</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Insert character</string>
+	<string>Insert Character</string>
 	<key>objects</key>
 	<array>
 		<dict>
